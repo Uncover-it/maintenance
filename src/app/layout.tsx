@@ -4,7 +4,7 @@ import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.uncoverit.org"),
+  metadataBase: new URL("https://maintenance.uncoverit.org"),
   alternates: {
     canonical: "/",
   },
@@ -12,12 +12,10 @@ export const metadata: Metadata = {
     default: "Uncover it - Maintenance in progress",
     template: "Uncover it - %s",
   },
-  description:
-    "Maintenance page for Uncover it",
+  description: "Maintenance page for Uncover it",
   openGraph: {
     title: "Maintenance Page",
-    description:
-      "Maintenance page for Uncover it",
+    description: "Maintenance page for Uncover it",
     url: "https://maintenance.uncoverit.org",
     siteName: "Uncover it",
     locale: "en_US",
@@ -37,8 +35,7 @@ export const metadata: Metadata = {
   twitter: {
     title: "Uncover it - Maintenance in progress",
     card: "summary_large_image",
-    description:
-      "Maintenance page for Uncover it",
+    description: "Maintenance page for Uncover it",
   },
 };
 
